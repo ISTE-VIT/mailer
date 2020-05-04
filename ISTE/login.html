@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Page Title</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<style>
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  top: 70px;
+left: -1px;
+width: page-width;
+height: 2715px;
+transform: matrix(1, 0, 0, 1, 0, 0);
+background: black;
+opacity: 1;
+}
+
+h1{text-align: center;
+font: Regular 45px/54px Agency FB;
+letter-spacing: 0px;
+color: white;
+opacity: 1;}
+
+.navbar {
+position:relative;
+top: 0px;
+left: 0px;
+width: page-width;
+height: 70px;
+background: #696969 0% 0% no-repeat padding-box;
+opacity: 1;
+}
+
+.navbar a {
+  float: right;
+  display:block;
+  font-size: 19px;
+  letter-spacing: normal;
+  color: white;
+  text-align: center;
+  padding: 25px 30px;
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  padding: 20px;
+  background: white;
+  color:white;
+
+}
+
+.fa-instagram {
+  background: white;
+  color: black;
+}
+
+.fa-twitter {
+  background: white;
+  color: black;
+}
+
+.fa-facebook-official {
+  background: white;
+  color: black;
+}
+div.logo{
+position: absolute;
+top: 7px;
+left: 282px;
+width: 58px;
+height: 57px;
+background: transparent 0% 0% no-repeat padding-box;
+opacity: 1;
+}
+
+h1{
+position: absolute;
+top: -5px;
+left: 355px;
+width: 67px;
+height: 50px;
+text-align: left;
+font: Regular 35px/50px Lemon/Milk;
+letter-spacing: 0px;
+color: #FFFFFF;
+opacity: 1;
+}
+
+input[type="text"], input[type=password]{
+  position: relative;
+  top:80px;
+  left:100px;
+  width: 60%;
+  padding: 13px 20px;
+  margin: 40px 0;
+  box-sizing: border-box;
+  background: #F0F0F0 0% 0% no-repeat padding-box;
+  border: 1px solid #707070;
+  opacity: 1;}
+
+
+.form button {
+  position: relative;
+  top:50px;
+  left:200px;
+  width: 12%;
+  padding: 10px;
+  background: #2196F3;
+  color: white;
+  font-size: 20px;
+  border: 1px solid grey;
+  border-left: none;
+  cursor: pointer;
+}
+
+.social{
+position:absolute;
+right:100px;
+bottom:50px;
+color: black;
+}
+
+.address{
+  position:absolute;
+  left:400px;
+  bottom:15px;
+  color: black;
+}
+
+.copyright{
+  position:absolute;
+  right:630px;
+  bottom:75px;
+  color: black;
+}
+
+</style>
+
+<title>Mailer</title>
+</head>
+<body>
+
+<div class="navbar">
+  <div class="logo">
+    <img src="logo.png" >
+  </div>
+
+  <h1>ISTE</h1>
+  <a href="#">Events</a>
+  <a href="#">Home</a>
+</div>
+
+<br><br><br><br><br>
+<br><br><br><br><br>
+
+<div style="width:900px;height:470px;border:1px solid #000;background-color:white; position:relative; left:260px">
+
+  <h1
+  style="top: -70px;
+  left: 400px;
+  width: 20px;
+  height: 510px;
+  font-size:4x0px;
+  text-align: center;
+  font: Regular 35px/40px Arial;
+  letter-spacing: 0px;
+  color: white;
+  opacity: 1">LOGIN</h1>
+
+<div class="form" >
+  <form action="/mail.html" method="post">
+      <label for="username" style="font-size:20px; position:relative;text-align: center; left:200px"><b>Username</b></label>
+      <input type="text" name="username" style="font-size:22px" placeholder="abc@xyz.com"required /><br><br>
+      <label for="password" style="font-size:20px; position:relative;text-align: center; left:200px"><b>Password</b></label>
+      <input type="password" name="password" style="font-size:22px" placeholder="********"required/><br><br><br><br>
+      <button type="submit">Login</button>
+ </form>
+</div>
+</div>
+
+<footer class="footer" style="height:140px;" >
+<div class="social">
+  <a href="#"><i class="fa fa-facebook-official" ></i></a>
+  <a href="#"><i class="fa fa-twitter"></i></a>
+  <a href="#"><i class="fa fa-instagram"></i></a>
+  <img src="logo.png" width="55px" style="position:relative; bottom:-15px; left:20px">
+  <br>
+  <h3>Connect to us on Social media</h3>
+</div>
+
+<div class="address">
+  <p>ISTE-VIT</p>
+  <p>VIT University Vellore</p>
+  <p>Tamil Nadu</p>
+  <p>632014</p>
+</div>
+
+  <h4 style="position:absolute; left:150px; bottom:100px;color:black">CONTACT US</h4>
+  <p style="position:absolute; left:155px; bottom:70px;color:black">9700449833</p>
+  <p style="position:absolute; left:155px; bottom:40px;color:black">iste@vit.ac.in</p>
+
+<div class="copyright">
+  <p>Copyright © 2019. ISTE-VIT</p>
+    <p>All Rights Reserved.</p>
+
+
+</footer>
+
+</body>
+</html>
