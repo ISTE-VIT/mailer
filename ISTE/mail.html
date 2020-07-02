@@ -5,9 +5,9 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="node.js"></script>
 
 <style>
-
 body {
   font-family: Arial, Helvetica, sans-serif;
   top: 70px;
@@ -194,7 +194,7 @@ opacity: 1;">Mailer</h1>
 <br><br><br><br><br>
 
 <div class="form">
-  <form>
+  <form action="/send-email" method="post">
       <input type="text" name="subject" style="font-size:22px" placeholder="Subject.."required /><br>
       <input type="text" name="content" style="font-size:22px" placeholder="Content.."required/><br>
       <button type="submit">All Mails</button>
